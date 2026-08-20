@@ -2,6 +2,7 @@ import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 import NextThemeProvider from "@/providers/NextThemeProvider";
+import Footer from "@/components/common/Footer";
 
 const josefinSans = Josefin_Sans({
   variable: "--font-josefin-sans",
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <NextThemeProvider>
           <Navbar />
           {children}
+          <Footer />
         </NextThemeProvider>
       </body>
     </html>
