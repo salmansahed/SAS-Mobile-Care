@@ -1,4 +1,5 @@
 import ContactCTA from "@/components/home/ContactCTA";
+import FaqSection from "@/components/home/FaqSection";
 import Hero from "@/components/home/Hero";
 import ServicesSection from "@/components/home/ServicesSection";
 import Testimonials from "@/components/home/Testimonials";
@@ -12,6 +13,7 @@ const Home = () => {
       <WhyChooseUs />
       <ContactCTA />
       <Testimonials />
+      <FaqSection />
     </div>
   );
 };
