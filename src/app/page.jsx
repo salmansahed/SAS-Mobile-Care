@@ -13,11 +13,11 @@ const Home = () => {
       <Hero />
       <ServicesSection />
       <WhyChooseUs />
-      <ContactCTA />
+      <StatsSection />
       <Testimonials />
       <FaqSection />
-      <StatsSection />
       <LocationSection />
+      <ContactCTA />
     </div>
   );
 };
