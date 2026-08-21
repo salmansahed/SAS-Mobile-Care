@@ -48,7 +48,7 @@ export default function ContactCTA() {
               <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs sm:text-sm">
                 <div className="flex items-center justify-center lg:justify-start gap-2.5 bg-white/60 dark:bg-slate-950/60 backdrop-blur-md p-3.5 rounded-2xl border border-indigo-100/80 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium shadow-xs">
                   <HiMapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0" />
-                  <span>Chamiyadi, Bhaluka, Mymensingh</span>
+                  <span>Chamiyadi Bazar, Bhaluka, Mymensingh</span>
                 </div>
                 <div className="flex items-center justify-center lg:justify-start gap-2.5 bg-white/60 dark:bg-slate-950/60 backdrop-blur-md p-3.5 rounded-2xl border border-indigo-100/80 dark:border-slate-800 text-slate-700 dark:text-slate-300 font-medium shadow-xs">
                   <HiClock className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0" />

@@ -59,7 +59,7 @@ export default function StatsSection() {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
               Trusted by Thousands in{" "}
               <span className="bg-linear-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
-                Chamiyadi, Bhaluka
+                Chamiyadi Bazar, Bhaluka
               </span>
             </h2>
           </div>

@@ -169,7 +169,7 @@ export default function Footer() {
             <div className="flex flex-col gap-3 text-sm text-slate-600 dark:text-slate-400">
               <div className="flex items-start gap-3">
                 <HiMapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0 mt-0.5" />
-                <span>Chamiyadi , Bhaluka, Mymensingh, Bangladesh</span>
+                <span>Chamiyadi Bazar , Bhaluka, Mymensingh, Bangladesh</span>
               </div>
               <div className="flex items-center gap-3">
                 <HiPhone className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0" />

@@ -22,7 +22,7 @@ export default function LocationSection() {
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">
             Find Us at{" "}
             <span className="bg-linear-to-r from-indigo-600 to-purple-600 dark:from-indigo-400 dark:to-purple-400 bg-clip-text text-transparent">
-              Chamiyadi, Bhaluka
+              Chamiyadi Bazar, Bhaluka
             </span>
           </h2>
           <p className="text-slate-600 dark:text-slate-400 text-sm sm:text-base mt-3">
@@ -51,7 +51,7 @@ export default function LocationSection() {
                       Store Address
                     </h4>
                     <p className="text-slate-600 dark:text-slate-400 text-xs sm:text-sm mt-0.5">
-                      Chamiyadi, Bhaluka, Mymensingh, Bangladesh
+                      Chamiyadi Bazar, Bhaluka, Mymensingh, Bangladesh
                     </p>
                   </div>
                 </div>
