@@ -18,7 +18,7 @@ export default function TrackPage() {
           Track Your Service Status
         </h1>
         <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
-          Enter your registered 11-digit mobile number (e.g. 01614869602)
+          Enter your registered 11-digit mobile number (e.g. 01700000000)
           without any country code (+88) or spaces.
         </p>
       </div>
