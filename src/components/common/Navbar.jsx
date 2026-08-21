@@ -31,6 +31,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
     { name: "Track", href: "/track" },
+    { name: "About-Us", href: "/about-us" },
   ];
 
   // Hide Navbar on Dashboard routes
