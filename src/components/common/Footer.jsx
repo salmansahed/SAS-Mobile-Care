@@ -24,17 +24,17 @@ export default function Footer() {
   const quickLinks = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
-    { name: "Buy / Sell Phone", href: "/buy-sell" },
-    { name: "Online Services", href: "/online-services" },
+    { name: "Buy / Sell Phone", href: "/services" },
+    { name: "Online Services", href: "/services" },
     { name: "Track Repair", href: "/track" },
   ];
 
   const services = [
-    { name: "Hardware Repair", href: "/services#hardware" },
-    { name: "Display Replacement", href: "/services#display" },
-    { name: "Software & Unlocking", href: "/services#software" },
-    { name: "Phone Exchange", href: "/buy-sell" },
-    { name: "Online Application", href: "/online-services" },
+    { name: "Hardware Repair", href: "/services" },
+    { name: "Display Replacement", href: "/services" },
+    { name: "Software & Unlocking", href: "/services" },
+    { name: "Phone Exchange", href: "/services" },
+    { name: "Online Application", href: "/services" },
   ];
 
   const socialLinks = [
@@ -54,7 +54,7 @@ export default function Footer() {
     },
     {
       name: "YouTube",
-      href: "https://youtube.com/sasmobilecare",
+      href: "https://www.youtube.com/@sasmobilecare",
       icon: FaYoutube,
       style:
         "text-rose-600 dark:text-rose-400 hover:bg-rose-600 hover:text-white dark:hover:bg-rose-600 dark:hover:text-white",

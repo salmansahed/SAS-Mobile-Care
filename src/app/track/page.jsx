@@ -1,4 +1,5 @@
 import TrackForm from "@/components/track/TrackForm";
+import { TbCurrentLocationFilled } from "react-icons/tb";
 
 export const metadata = {
   title: "Track Repair Status | SAS Mobile Care",
@@ -11,8 +12,9 @@ export default function TrackPage() {
     <div className="min-h-screen pt-10 pb-20 px-4 max-w-4xl mx-auto">
       {/* Hero Header Section */}
       <div className="text-center max-w-xl mx-auto mb-10">
-        <span className="text-[11px] font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/50 inline-block mb-3">
-          Live Tracking
+        <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/50 mb-3">
+          <TbCurrentLocationFilled className="w-3.5 h-3.5 animate-pulse" />
+          <span>Live Tracking</span>
         </span>
         <h1 className="text-2xl sm:text-4xl font-black text-slate-900 dark:text-white mb-3">
           Track Your Service Status
