@@ -167,18 +167,36 @@ export default function Footer() {
               Get In Touch
             </h3>
             <div className="flex flex-col gap-3 text-sm text-slate-600 dark:text-slate-400">
-              <div className="flex items-start gap-3">
-                <HiMapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0 mt-0.5" />
+              {/* Google Maps Search Link */}
+              <Link
+                href="https://www.google.com/maps/search/?api=1&query=Chamiyadi+Bazar,+Bhaluka,+Mymensingh,+Bangladesh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-3 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
+              >
+                <HiMapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0 mt-0.5 group-hover:scale-110 transition-transform" />
                 <span>Chamiyadi Bazar , Bhaluka, Mymensingh, Bangladesh</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <HiPhone className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0" />
+              </Link>
+
+              {/* Phone Call Link */}
+              <Link
+                href="tel:+8801614869602"
+                className="flex items-center gap-3 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
+              >
+                <HiPhone className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0 group-hover:scale-110 transition-transform" />
                 <span>+880 1614-869602</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <HiEnvelope className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0" />
+              </Link>
+
+              {/* Mailto Link with Pre-filled Subject & Body */}
+              <Link
+                href="mailto:contact.sasmobilecare@gmail.com?subject=Inquiry%20Regarding%20Mobile%20Repair%20Service&body=Hello%20SAS%20Mobile%20Care%20Team,%0A%0AI%20have%20a%20query%20regarding..."
+                className="flex items-center gap-3 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors group"
+              >
+                <HiEnvelope className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0 group-hover:scale-110 transition-transform" />
                 <span>contact.sasmobilecare@gmail.com</span>
-              </div>
+              </Link>
+
+              {/* Shop Hours */}
               <div className="flex items-center gap-3">
                 <HiClock className="w-5 h-5 text-indigo-600 dark:text-indigo-400 shrink-0" />
                 <span>Everyday: 9:00 AM - 10:00 PM</span>
