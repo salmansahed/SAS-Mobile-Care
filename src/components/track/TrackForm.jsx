@@ -87,7 +87,7 @@ export default function TrackForm() {
             <HiMagnifyingGlass className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
             <input
               type="tel"
-              placeholder="Enter your Mobile Number (e.g. 01614869602)"
+              placeholder="Enter your Mobile Number (e.g. 01700000000)"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               className="w-full h-full pl-11 pr-4 py-3.5 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-2xl text-xs sm:text-sm text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-hidden focus:border-indigo-500 transition-all font-medium"
