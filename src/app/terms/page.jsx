@@ -19,7 +19,7 @@ export default function TermsPage() {
   const lastUpdated = "August 21, 2026";
 
   return (
-    <div className="min-h-screen pt-10 pb-20 px-4 max-w-4xl mx-auto">
+    <div className="min-h-screen pt-15 pb-20 px-4 max-w-4xl mx-auto">
       {/* Header Section */}
       <div className="text-center max-w-2xl mx-auto mb-12">
         <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold uppercase tracking-widest px-3.5 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 border border-indigo-100 dark:border-indigo-900/50 mb-3">
