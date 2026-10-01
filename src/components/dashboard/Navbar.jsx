@@ -2,6 +2,7 @@
 
 import { TbBell, TbMenu2 } from "react-icons/tb";
 import ThemeSwitch from "../theming/ThemeSwitch";
+import Link from "next/link";
 
 export default function Navbar({ brandName, brandInitial, setIsSidebarOpen }) {
   return (
@@ -29,10 +30,12 @@ export default function Navbar({ brandName, brandInitial, setIsSidebarOpen }) {
 
       <div className="flex items-center gap-2 sm:gap-4">
         <ThemeSwitch />
-        <button className="p-2 sm:p-2.5 rounded-full bg-slate-50 dark:bg-slate-800 text-slate-500 dark:text-slate-300 hover:text-purple-600 transition-colors relative cursor-pointer">
-          <TbBell className="w-4 h-4" />
-          <span className="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-amber-500" />
-        </button>
+        <Link href="https://web.whatsapp.com" target="_blank">
+          <button className="p-2 sm:p-2.5 rounded-full bg-slate-50 dark:bg-slate-800 text-slate-500 dark:text-slate-300 hover:text-purple-600 transition-colors relative cursor-pointer">
+            <TbBell className="w-4 h-4" />
+            <span className="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-amber-500" />
+          </button>
+        </Link>
 
         <div className="flex items-center gap-2.5 pl-2 sm:pl-3 border-l border-slate-200 dark:border-slate-800">
           <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-purple-100 text-purple-700 font-bold text-xs flex items-center justify-center border border-purple-200 shrink-0">
