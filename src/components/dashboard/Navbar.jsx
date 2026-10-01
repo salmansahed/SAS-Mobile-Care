@@ -3,6 +3,7 @@
 import { TbBell, TbMenu2 } from "react-icons/tb";
 import ThemeSwitch from "../theming/ThemeSwitch";
 import Link from "next/link";
+import { LuLogOut } from "react-icons/lu";
 
 export default function Navbar({ brandName, brandInitial, setIsSidebarOpen }) {
   return (
@@ -37,18 +38,12 @@ export default function Navbar({ brandName, brandInitial, setIsSidebarOpen }) {
           </button>
         </Link>
 
-        <div className="flex items-center gap-2.5 pl-2 sm:pl-3 border-l border-slate-200 dark:border-slate-800">
-          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-purple-100 text-purple-700 font-bold text-xs flex items-center justify-center border border-purple-200 shrink-0">
-            SAS
-          </div>
-          <div className="text-left hidden md:block">
-            <p className="text-xs font-extrabold leading-none text-slate-800 dark:text-slate-100">
-              Salman - Alamin - Siddik
-            </p>
-            <span className="text-[10px] text-slate-400 font-semibold">
-              Store Manager
-            </span>
-          </div>
+        <div className="flex items-center pl-2 sm:pl-3 border-l border-slate-200 dark:border-slate-800">
+          <button className="flex items-center gap-2 px-3 py-2 rounded-xl bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/30 dark:hover:bg-rose-900/40 text-rose-600 dark:text-rose-400 font-semibold text-sm transition-all duration-200 border border-rose-200/60 dark:border-rose-800/50 shadow-xs cursor-pointer active:scale-95">
+            {/* Log Out Icon */}
+            <LuLogOut className="text-base" />
+            <span className="hidden sm:inline">Logout</span>
+          </button>
         </div>
       </div>
     </header>
