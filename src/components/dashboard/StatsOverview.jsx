@@ -4,7 +4,7 @@ const STATS_DATA = [
   {
     id: "display",
     title: "Total Display",
-    count: "12",
+    count: "__",
     badge: "In Stock",
     subtitle: "Stored in Database",
     icon: TbDeviceMobile,
@@ -13,7 +13,7 @@ const STATS_DATA = [
   {
     id: "covers",
     title: "Total Phone Covers",
-    count: "02",
+    count: "__",
     badge: "Available",
     subtitle: "Items saved by users",
     icon: TbShieldCheck,
@@ -22,7 +22,7 @@ const STATS_DATA = [
   {
     id: "services",
     title: "Total Phone Services",
-    count: "04",
+    count: "__",
     badge: "Services",
     subtitle: "Mobile Repair & Servicing",
     icon: TbTools,

@@ -39,11 +39,11 @@ export default function Navbar({ brandName, brandInitial, setIsSidebarOpen }) {
 
         <div className="flex items-center gap-2.5 pl-2 sm:pl-3 border-l border-slate-200 dark:border-slate-800">
           <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-purple-100 text-purple-700 font-bold text-xs flex items-center justify-center border border-purple-200 shrink-0">
-            SS
+            SAS
           </div>
           <div className="text-left hidden md:block">
             <p className="text-xs font-extrabold leading-none text-slate-800 dark:text-slate-100">
-              Salman Sahed
+              Salman - Alamin - Siddik
             </p>
             <span className="text-[10px] text-slate-400 font-semibold">
               Store Manager
