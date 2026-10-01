@@ -112,13 +112,13 @@ export default function TrackForm() {
           </div>
 
           {/* Title & Description */}
-          <h3 className="text-base font-extrabold text-slate-900 dark:text-white">
+          <h3 className="font-extrabold text-slate-900 dark:text-white">
             No Service Record Found
           </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto mt-1.5 leading-relaxed">
+          <p className="text-sm text-slate-500 dark:text-slate-400 max-w-sm mx-auto mt-1.5 leading-relaxed">
             We couldn&apos;t find any repair order associated with{" "}
             <span className="font-bold text-slate-800 dark:text-slate-200">
-              {phone}
+              {phone && phone.length > 11 ? `${phone.slice(0, 11)}...` : phone}
             </span>
             .
           </p>
